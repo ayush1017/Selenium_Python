@@ -1,0 +1,37 @@
+
+
+2025-01-12 17:28:22,800 - INFO - Website loaded successfully.
+2025-01-12 17:28:26,001 - INFO - Screenshot saved as ScreenShots_\screenshot_navigate_to_website.png
+2025-01-12 17:28:26,017 - INFO - Page Title: Swag Labs
+2025-01-12 17:28:29,213 - INFO - Screenshot saved as ScreenShots_\screenshot_verify_page_title.png
+2025-01-12 17:28:29,479 - INFO - Entered username: standard_user.
+2025-01-12 17:28:32,678 - INFO - Screenshot saved as ScreenShots_\screenshot_enter_username.png
+2025-01-12 17:28:32,892 - INFO - Entered password: secret_sauce.
+2025-01-12 17:28:36,099 - INFO - Screenshot saved as ScreenShots_\screenshot_enter_password.png
+2025-01-12 17:28:36,361 - INFO - Logged in successfully.
+2025-01-12 17:28:39,623 - INFO - Screenshot saved as ScreenShots_\screenshot_click_login.png
+2025-01-12 17:28:39,787 - INFO - Added the third product to the cart.
+2025-01-12 17:28:43,046 - INFO - Screenshot saved as ScreenShots_\screenshot_add_to_cart.png
+2025-01-12 17:28:43,209 - INFO - Navigated to the cart.
+2025-01-12 17:28:46,420 - INFO - Screenshot saved as ScreenShots_\screenshot_click_cart_icon.png
+2025-01-12 17:28:46,444 - INFO - Verified the product is added to the cart.
+2025-01-12 17:28:49,646 - INFO - Screenshot saved as ScreenShots_\screenshot_verify_product_in_cart.png
+2025-01-12 17:28:49,825 - INFO - Clicked on the Checkout button.
+2025-01-12 17:28:53,043 - INFO - Screenshot saved as ScreenShots_\screenshot_click_checkout.png
+2025-01-12 17:28:53,564 - INFO - Filled out the checkout form.
+2025-01-12 17:28:56,753 - INFO - Screenshot saved as ScreenShots_\screenshot_fill_checkout_form.png
+2025-01-12 17:28:56,947 - INFO - Clicked Continue.
+2025-01-12 17:29:00,145 - INFO - Screenshot saved as ScreenShots_\screenshot_click_continue.png
+2025-01-12 17:29:00,328 - INFO - Order completed successfully.
+2025-01-12 17:29:03,534 - INFO - Screenshot saved as ScreenShots_\screenshot_click_finish.png
+2025-01-12 17:29:03,557 - INFO - Verified the order success message: THANK YOU FOR YOUR ORDER.
+2025-01-12 17:29:07,858 - INFO - Browser closed.
+2025-01-12 17:29:10,071 - ERROR - Error terminating service process.
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\site-packages\selenium\webdriver\common\service.py", line 176, in _terminate_process
+    self.process.terminate()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\subprocess.py", line 1683, in terminate
+    _winapi.TerminateProcess(self._handle, 1)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+OSError: [WinError 6] The handle is invalid
